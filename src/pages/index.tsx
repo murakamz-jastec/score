@@ -8,7 +8,7 @@ export default function Home() {
         <div>Here comes your dreams</div>
       </div>
       <div className={styles.center}>
-        <Link href="/aboutme">About Me</Link>
+        <Link href="./aboutme">About Me</Link>
       </div>
     </main>
   );
