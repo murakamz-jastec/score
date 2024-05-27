@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  app:
+    container_name: handson-jastec-nextjs
+    build:
+      context: .
+      args:
+        UID: ${UID:-1000}
+        GID: ${GID:-1000}
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    volumes:
+      - .:/app:cached
+      - node_modules:/app/node_modules
+volumes:
+  node_modules:

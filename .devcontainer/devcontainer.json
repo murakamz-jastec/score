@@ -1,0 +1,26 @@
+{
+  "name": "handson-jastec-nextjs",
+  "dockerComposeFile": [
+    "../docker-compose.yml"
+  ],
+  "forwardPorts": [
+    3000
+  ],
+  "service": "app",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "dsznajder.es7-react-js-snippets"
+  ],
+  "remoteUser": "dev",
+  "postCreateCommand": "npm install",
+  "workspaceFolder": "/app",
+  "settings": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  }
+}
