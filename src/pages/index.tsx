@@ -19,7 +19,7 @@ const Index = () => {
           <Link href="./lessons/lesson1">Lesson1</Link>
         </div>
         <div className={styles.menuList}>
-          <Link href="./lessons/lesson2">Lesson1</Link>
+          <Link href="./lessons/lesson2">Lesson2</Link>
         </div>
         <div className={styles.menuList}>
           <Link href="./lessons/lesson3">Lesson3</Link>
