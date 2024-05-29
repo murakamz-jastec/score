@@ -8,8 +8,8 @@ const Index = () => {
       <Image
         src="/top_image.jpg"
         alt="Image"
-        width={1920 / 3}
-        height={855 / 3}
+        width={1920 / 5}
+        height={855 / 5}
       />
       <div className={styles.title}>
         <div>Make your dreams come true from here</div>
