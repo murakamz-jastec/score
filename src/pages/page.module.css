@@ -33,3 +33,42 @@
   padding: 4rem 0;
   font-size: small;
 }
+
+.score {
+  color: white;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: rgb(65, 192, 65);
+}
+.score th {
+  padding: 0.5rem;
+  border: 2px solid black;
+}
+
+.score td {
+  padding: 1rem;
+  border: 2px solid black;
+}
+
+.main button {
+  padding: 1rem;
+  margin-bottom: auto;
+}
+
+/* .score {
+  background-color: rgb(102, 187, 102);
+  border: 2px solid;
+} */
+/* タグごとに外枠 */
+/* .score th {
+  margin: 0;
+  padding: 10px;
+  line-height: 1;
+}
+.score td {
+  border: 2px solid;
+  border-color: white;
+  margin: 0;
+  padding: 10px;
+  line-height: 1;
+} */
