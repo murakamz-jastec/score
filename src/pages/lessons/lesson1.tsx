@@ -34,7 +34,7 @@ const Lesson1 = () => {
       state = 2;
       buttonName = "非表示";
       ScoreButtonClick();
-      console.log("結果表示");
+      console.log("スコア表示");
     } //３回目なら非表示
     else {
       state = 0;
@@ -48,7 +48,7 @@ const Lesson1 = () => {
   const TeamButtonClick = () => {
     TeamsetShowDetails(!TeamshowDetails);
   };
-  //結果表示、非表示の切替
+  //スコア表示、非表示の切替
   const ScoreButtonClick = () => {
     ScoresetShowDetails(!ScoreshowDetails);
   };
